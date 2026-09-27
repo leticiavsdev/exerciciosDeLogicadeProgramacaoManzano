@@ -1,0 +1,25 @@
+Algoritmo "L05B"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   : a) Apresentar os resultados de uma tabuada de multiplicar
+//(de 1 até 10) de um número qualquer.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 20/09/2026
+Var
+   // Seção de Declarações das variáveis
+   numero, tabuada: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Escola a tabuada que quer saber: ")
+   Leia(tabuada)
+   escreval("")
+   para numero de 1 ate 10 faca
+      escreval(tabuada, " x ", numero, " = ", tabuada * numero)
+   fimpara
+
+   escreval()
+   tabuada <- tabuada + 1
+
+
+Fimalgoritmo
