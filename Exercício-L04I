@@ -1,0 +1,37 @@
+Algoritmo " L04I"
+// Disciplina   : [Logica de Programação  em JavaScript]
+// Professor   : Jailson
+// Descrição   : i) Elaborar um programa que efetue a leitura de valores
+//positivos inteiros até que um valor negativo seja informado. Ao final devem
+// ser apresentados o maior e o menor valores informados pelo usuário.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 23/09/2026
+Var
+   // Seção de Declarações das variáveis
+   valor, maior, menor: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite um valor positivo: ")
+   leia(valor)
+
+   maior <- valor
+   menor <- valor
+
+   repita // Repita ate que o valor sera menor que 0, porque assim para o sistema
+      se valor > maior entao
+         maior <- valor
+      fimse
+
+      se valor < menor entao
+         menor <- valor
+      fimse
+
+      escreval("Digite outro valor positivo ou um negativo para parar: ")
+      leia(valor)
+      
+   ate  valor <= 0
+   
+   escreval("Maior valor informado: ", maior)
+   escreval("Menor valor informado: ", menor)
+
+Fimalgoritmo
