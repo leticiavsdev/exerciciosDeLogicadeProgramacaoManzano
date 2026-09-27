@@ -1,0 +1,20 @@
+Algoritmo " L05A"
+// Disciplina   : [Logica de Programação  em JavaScript]
+// Professor   : Jailson
+// Descrição   : a) Apresentar os quadrados dos números inteiros de 15 a 200
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 23/09/2026
+Var
+   // Seção de Declarações das variáveis
+   contadora, numero, quadrado: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("PROGRAMDA DE QUADRADOS 15 a 200.")
+   Escreval("")
+   para contadora de 15 ate 200 faca
+      numero <-  contadora  + 1
+      quadrado <- numero * numero
+      Escreval("O quadrado de",numero," é ",quadrado,".")
+   fimpara
+
+Fimalgoritmo
