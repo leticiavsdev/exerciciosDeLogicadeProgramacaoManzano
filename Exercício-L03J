@@ -1,0 +1,28 @@
+Algoritmo "L03J"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Elaborar um programa que apresente os resultados da soma e
+//da média aritmética dos valores pares situados na faixa numérica de 50 a 70.
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 19/09/2026
+Var
+   // Seção de Declarações das variáveis
+   numero, soma, quantidade: inteiro
+   media: real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   numero <- 50
+
+   enquanto numero <= 70 faca
+      soma <- soma + numero
+      quantidade <- quantidade + 1
+
+      numero <- numero + 2
+   fimenquanto
+
+   media <- soma / quantidade
+   escreval("Soma dos valores pares: ", soma)
+   escreval("Média aritmética: ", media)
+Fimalgoritmo
