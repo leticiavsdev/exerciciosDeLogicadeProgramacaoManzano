@@ -1,0 +1,32 @@
+Algoritmo "L01Apag26"
+// Disciplina   : [Lógica de Programação em javascript]
+// Professor   : Jailson
+// Descrição   : Elaborar um programa de computador que efetue a leitura
+//de quatro valores inteiros (variáveis A, B, C e D). Ao final o programa
+//deve apresentar o resultado do produto (variável P) do primeiro com o
+//terceiro valor, e o resultado do produto (variável P) do primeiro com o
+//terceiro valor, e o resultado da soma(variável S) do segundo com o quarto valor.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 21/09/2026
+Var
+   // Seção de Declarações das variáveis
+   ValorA, ValorB, ValorC, valorD : inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Escreva o valor A: ")
+   Leia(ValorA)
+   Escreval("")
+   Escreval("Escreva o valor B: ")
+   Leia(ValorB)
+   Escreval("")
+   Escreval("Escreva o valor C: ")
+   Leia(ValorC)
+   Escreval("")
+   Escreval("Escreva o valor D: ")
+   Leia(ValorD)
+   Escreval("")
+   Escreval("Valor Produto P:", ValorA * ValorC)
+   Escreval("Valor Produto S:", ValorB + ValorD)
+
+Fimalgoritmo
