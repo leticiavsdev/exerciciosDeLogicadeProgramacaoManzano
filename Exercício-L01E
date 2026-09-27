@@ -1,0 +1,34 @@
+Algoritmo "L01E"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Efetuar o cálculo e a apresentação do valor de
+//uma prestação em atraso, utilizando a fórmula
+//PRESTACAO <- VALOR + (VALOR * TAXA/100) * TEMPO)
+// Autor(a): Leticia Vitoria
+// Data atual  : 12/09/2026
+Var
+   // Seção de Declarações das variáveis
+   valor, dia, taxa, prestacao: real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("------CALCULO PRESTAÇÃO EM ATRASO------")
+   Escreval("")
+   Escreval("QUAL O VALOR DA PRESTAÇÃO:")
+   Escreval("")
+   Leia(valor)
+
+   Escreval("QUANTOS DIAS FICOU SEM PAGAR:")
+   Escreval("")
+   Leia(dia)
+
+   Escreval("VALOR DA TAXA DE JUROS (%):")
+   Escreval("")
+   Leia(taxa)
+   
+   prestacao <- valor + (valor * (taxa / 100) * dia)
+
+   Escreval("")
+   Escreval("O VALOR DA PRESTAÇÃO COM JUROS: R$ ", prestacao:4:2)
+
+Fimalgoritmo
