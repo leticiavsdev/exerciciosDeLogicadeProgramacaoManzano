@@ -1,0 +1,24 @@
+Algoritmo " L04A"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   : Apresentar os quadrados dos números inteiros de 15 a 200
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 22/09/2026
+Var
+   // Seção de Declarações das variáveis
+   numero, quadrado, contadora : inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("PROGRAMDA DE QUADRADOS 15 a 200.")
+   Escreval("")
+   contadora <- 14
+   repita
+      numero <-  contadora  + 1
+      quadrado <- numero * numero
+      Escreval("O quadrado de",numero," é ",quadrado,".")
+      contadora <- contadora + 1
+   ate contadora >= 201
+
+
+Fimalgoritmo
