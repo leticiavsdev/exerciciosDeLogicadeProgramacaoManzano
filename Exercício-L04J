@@ -1,0 +1,30 @@
+Algoritmo " L04J"
+// Disciplina   : [Logica de Programação  em JavaScript]
+// Professor   : Jailson
+// Descrição   : j) Elaborar um programa que apresente o resultado inteiro
+//da divisão de dois números quaisquer. Para a elaboração do programa, não
+//utilizar em hipótese alguma o conceito do operador aritmético
+//DIV. A solução deve ser alcançada com a utilização de looping. Ou seja,
+//o programa deve apresentar como resultado (quociente) quantas vezes o
+//divisor cabe no dividendo.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 23/09/2026
+Var
+   // Seção de Declarações das variáveis
+   resultado, dividendo, divisor: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Escreva o dividendo:")
+   leia(dividendo)
+   Escreval("Escreva o divisor:")
+   leia(divisor)
+   repita
+      dividendo <- dividendo - divisor
+      resultado <- resultado + 1
+
+   ate dividendo < divisor
+   
+   Escreval("A quantidade de vezes divididas foi: ", resultado)
+
+
+Fimalgoritmo
