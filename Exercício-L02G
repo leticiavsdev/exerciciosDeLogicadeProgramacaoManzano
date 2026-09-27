@@ -1,0 +1,53 @@
+Algoritmo "L02G"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   : Efetuar a leitura de quatro números inteiros e apresentar os
+//números que são divisíveis por 2 e 3.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 13/09/2026
+Var
+   // Seção de Declarações das variáveis
+   A, B, C, D: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("---------- DIVISÍVEIS POR 2 E 3 ----------")
+   Escreval("")
+
+   Escreval("DIGITE O PRIMEIRO NÚMERO (A):")
+   Leia(A)
+
+   Escreval("DIGITE O SEGUNDO NÚMERO (B):")
+   Leia(B)
+
+   Escreval("DIGITE O TERCEIRO NÚMERO (C):")
+   Leia(C)
+
+   Escreval("DIGITE O QUARTO NÚMERO (D):")
+   Leia(D)
+
+   Escreval("")
+   Escreval("NÚMEROS DIVISÍVEIS POR 2 E 3:")
+
+   se (A mod 2 = 0) e (A mod 3 = 0) entao
+      Escreval("O NÚMERO(",A,") É DIVISIVEL POR 2 E 3")
+   senao
+      Escreval("O NÚMERO(",A,") NÃO É DIVISIVEL POR 2 E 3")
+   fimse
+   se (B mod 2 = 0) e (B mod 3 = 0) entao
+      Escreval("O NÚMERO(",B,") É DIVISIVEL POR 2 E 3")
+   senao
+      Escreval("O NÚMERO(",B,") NÃO É DIVISIVEL POR 2 E 3")
+   fimse
+   se (C mod 2 = 0) e (C mod 3 = 0) entao
+      Escreval("O NÚMERO(",C,") É DIVISIVEL POR 2 E 3")
+   senao
+      Escreval("O NÚMERO(",C,")NÃO É DIVISIVEL POR 2 E 3")
+   fimse
+   se (D mod 2 = 0) e (D mod 3 = 0) entao
+      Escreval("O NÚMERO(",D,") É DIVISIVEL POR 2 E 3")
+   senao
+      Escreval("O NÚMERO(",D,") NÃO É DIVISIVEL POR 2 E 3")
+   fimse
+
+Fimalgoritmo
