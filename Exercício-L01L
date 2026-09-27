@@ -1,0 +1,31 @@
+Algoritmo "L01L"
+// Disciplina: [Lógica de Programação em JavaScript]
+// Professor : Jailson
+// Descrição :  Elaborar um programa que efetue a leitura de três valores
+//(A, B e C) e apresente como resultado final à soma dos quadrados dos três
+//valores lidos.
+// Autor(a): Leticia Vitoria
+// Data atual: 12/09/2026
+Var
+   // Seção de Declarações das variáveis
+   A, B, C, resultado: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("---------- SOMA DOS QUADRADOS ----------")
+   Escreval("")
+
+   Escreval("DIGITE O VALOR A:")
+   Leia(A)
+
+   Escreval("DIGITE O VALOR B:")
+   Leia(B)
+
+   Escreval("DIGITE O VALOR C:")
+   Leia(C)
+   
+   resultado <- (A * A) + (B * B) + (C * C)
+
+   Escreval("A SOMA DOS QUADRADOS É: ", resultado)
+
+Fimalgoritmo
