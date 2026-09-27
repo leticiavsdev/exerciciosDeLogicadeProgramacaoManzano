@@ -1,0 +1,28 @@
+Algoritmo "L01I"
+// Disciplina: [Lógica de Programação em JavaScript]
+// Professor: Jailson
+// Descrição: Ler dois inteiros (variáveis A e B) e imprimir o resultado
+//do quadrado da diferença do primeiro valor pelo segundo.
+
+// Autor(a): Leticia Vitoria
+// Data atual: 12/09/2026
+Var
+   // Seção de Declarações das variáveis
+  A, B: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("----DIFERENÇA ENTRE VALORES QUADRADO----")
+   Escreval("")
+
+   Escreval("ESCOLHA UM VALOR: ")
+   Escreval("")
+   Leia(A)
+
+   Escreval("ESCOLHA UM VALOR: ")
+   Escreval("")
+   Leia(B)
+   
+   Escreval("O QUADRADO DA DIFERENÇA (A - B)^2 É: ", (A - B) ^ 2)
+
+Fimalgoritmo
