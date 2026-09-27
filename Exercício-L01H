@@ -1,0 +1,29 @@
+Algoritmo "L01H"
+// Disciplina : [Lógica de Programação em JavaScript]
+// Professor : Jailson
+// Descrição : Elaborar um programa que calcule e apresente o volume de
+//uma caixa retangular, por meio da fórmula VOLUME  COMPRIMENTO * LARGURA *
+//ALTURA
+// Autor(a): Leticia Vitoria
+// Data atual: 12/09/2026
+Var
+   // Seção de Declarações das variáveis
+  comprimento, largura, volume: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("-----CALCULO VOLUME CAIXA RETANGULAR-----")
+   Escreval("")
+
+   Escreval("QUAL É O COMPRIMENTO DO RETANGULO:")
+   Leia(comprimento)
+
+   Escreval("")
+   Escreval("QUAL É O LARGURA DO RETANGULO:")
+   Leia(largura)
+
+   volume<- (comprimento * largura)
+
+   Escreval("O VOLUME DO RETANGULO É: ", volume )
+
+Fimalgoritmo
