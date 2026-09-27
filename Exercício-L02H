@@ -1,0 +1,62 @@
+Algoritmo "L02H"
+// Disciplina   : [Lógica de Programação com JavaScript]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Efetuar a leitura de cinco números inteiros e identificar o
+//maior e o menor valores.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 20/09/2026
+Var
+   // Seção de Declarações das variáveis
+   numero1, numero2, numero3, numero4, numero5, maior, menor: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("Escolha o nuemro1:")
+   leia(numero1)
+   Escreval("")
+   escreval("Escolha o nuemro2:")
+   leia(numero2)
+   Escreval("")
+   escreval("Escolha o nuemro3:")
+   leia(numero3)
+   Escreval("")
+   escreval("Escolha o nuemro4:")
+   leia(numero4)
+   Escreval("")
+   escreval("Escolha o nuemro5:")
+   leia(numero5)
+   Escreval("")
+
+   se (numero1 >= numero2) entao
+      maior <- numero1
+      menor <- numero2
+   senao
+      maior <- numero2
+      menor <- numero3
+   fimse
+   se (numero3 >= maior) entao
+      maior <- numero3
+   senao
+      se (menor >= numero3) entao
+         menor <- numero3
+      fimse
+   fimse
+   se (numero4 >= maior) entao
+      maior <- numero4
+   senao
+      se (menor >= numero4)entao
+         menor <- numero4
+      fimse
+   fimse
+   se (numero5 >= maior) entao
+      maior <- numero5
+   senao
+      se (menor >= numero5) entao
+         menor <- numero5
+      fimse
+   fimse
+Escreval("O maior numero é: ", maior)
+Escreval("")
+Escreval("O menor numero é: ", menor)
+
+Fimalgoritmo
