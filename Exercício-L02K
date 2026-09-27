@@ -1,0 +1,27 @@
+Algoritmo " L02K"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   : Elaborar um programa que efetue a leitura de um determinado
+//valor inteiro, e efetue a sua apresentação, caso o valor não seja maior
+//que três.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 20/09/2026
+Var
+// Seção de Declarações das variáveis 
+   numero : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  Escreval("Numero menor que 3 aceito")
+  Escreval("")
+  
+  Escreval("Escreva um nuemro menor que 3:")
+  Leia(numero)
+  
+  Se (numero <= 3) entao
+  Escreval("O valor escolhido é: ", numero)
+  senao
+  Escreval("Fim do programa, pois foi escolhido um numero maior que 3! ")
+  fimse
+
+Fimalgoritmo
