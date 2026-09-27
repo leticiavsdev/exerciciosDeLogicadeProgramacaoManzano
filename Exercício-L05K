@@ -1,0 +1,24 @@
+Algoritmo " L05K"
+// Disciplina   : [Logica de Programação  em JavaScript]
+// Professor   : Jailson
+// Descrição   :Elaborar um programa que apresente como resultado o valor do
+//fatorial dos valores ímpares situados na faixa numérica de 1 a 10.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 23/09/2026
+Var
+   // Seção de Declarações das variáveis
+   numero, fatorial, i: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   para numero de 1 ate 10 passo 1 faca//1-conta de 1 ate 10
+      se (numero mod 2 <> 0) então //validae SE e impar
+         fatorial <- 1
+         para i de numero ate 1 passo -1 faca //2- calculo do fatorial(O fatorial guarda o resultado acumulado )
+            fatorial <- fatorial * i
+         fimpara
+         Escreval("O fatorial do número ímpar ", numero, " é:", fatorial)
+      Fimse
+   fimpara
+
+
+Fimalgoritmo
