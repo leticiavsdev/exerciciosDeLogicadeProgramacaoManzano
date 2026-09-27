@@ -1,0 +1,32 @@
+Algoritmo "L03F"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   :f) Elaborar um programa que apresente como resultado o valor
+//de uma potência de uma base qualquer elevada a um expoente qualquer, ou seja,
+//de BE , em que B é o valor da base e E o valor do expoente. Observe que
+//neste exercício não pode ser utilizado o operador de exponenciação do portuguol (^).
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 20/09/2026
+Var
+   // Seção de Declarações das variáveis
+   base, potencia, contador, expoente: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Escreva a base: ")
+   Leia(base)
+   Escreval("Escreva o expoente: ")
+   Leia(expoente)
+
+   potencia <- 1
+
+   enquanto contador < expoente faca
+
+      potencia <- potencia * base
+      contador <- contador + 1
+
+   fimenquanto
+
+   Escreval(potencia)
+
+Fimalgoritmo
