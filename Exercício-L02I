@@ -1,0 +1,25 @@
+Algoritmo "L02I"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   : Elaborar um programa que efetue a leitura de um número
+//inteiro e apresentar uma mensagem informando se o número é par ou ímpar.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 20/09/2026
+Var
+   // Seção de Declarações das variáveis
+   numero : inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Numero Par ou ímpar")
+   Escreval("")
+
+   Escreval("Escreva um numero: ")
+   Leia(numero)
+
+   Se (numero mod 2) = 0 entao
+      Escreval("O numero ", numero ," è par")
+   senao
+      Escreval("O numero", numero," é ìmapr")
+   fimse
+Fimalgoritmo
