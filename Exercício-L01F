@@ -1,0 +1,35 @@
+Algoritmo "L01F"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor    : Jailson
+// Descrição    : Ler dois valores (inteiros, reais ou caracteres) para as
+//variáveis A e B, e efetuar a troca dos valores de forma que a variável A
+//passe a possuir o valor da variável B e a variável B passe a possuir o
+//valor da variável A. Apresentar os valores trocados
+
+// Autor(a)     : Leticia Vitoria
+// Data atual   : 12/09/2026
+Var
+   // Seção de Declarações das variáveis
+   Banana, uva, bananapossuiuva, uvapossuibanana: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("-------TROCA DE VALORES--------")
+   Escreval("")
+
+   Escreval("ESCOLHA A QUANTIDADE DE BANANAS:")
+   Escreval("")
+   Leia(banana)
+
+   Escreval("ESCOLHA A QUANTIDADE DE UVAS:")
+   Escreval("")
+   Leia(uva)
+
+   bananapossuiuva <- uva
+   uvapossuibanana <- banana
+
+   Escreval("O VALOR DA BANANA: ",bananapossuiuva)
+   Escreval("O VALOR DA UVA: ", uvapossuibanana)
+
+
+Fimalgoritmo
