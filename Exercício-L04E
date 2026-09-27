@@ -1,0 +1,31 @@
+Algoritmo " L04E"
+// Disciplina   : [Programação em JavaScript em JavaScript]
+// Professor   : Jailson
+// Descrição   : Elaborar um programa que efetue a leitura de 15 valores
+//numéricos inteiros e no final apresente o total do somatório da fatorial de
+//cada valor lido.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 23/09/2026
+Var
+   // Seção de Declarações das variáveis
+   valor, numero, total, fatorial : inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   numero <- 1
+   repita
+      fatorial <- 1
+      Escreval("Escreva um valor: ")
+      leia(valor)
+      repita
+         fatorial <- fatorial * valor
+         valor <- valor - 1
+      ate  valor < 1
+      total <- total + fatorial
+      numero <- numero + 1
+   ate numero >15
+
+   Escreval("Segue o valor da somatoria do fatorial: ", total )
+
+
+Fimalgoritmo
