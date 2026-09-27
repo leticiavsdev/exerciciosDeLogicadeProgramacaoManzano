@@ -1,0 +1,22 @@
+Algoritmo "L01A"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   : Conveter temperatura
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 12/09/2026
+Var
+   // Seção de Declarações das variáveis
+   fahrenheit, Celsius: real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("----------TEMPERATURA---------")
+   Escreval("")
+   
+   Escreval("CONVERTER DE CELSIUS PARA FAHRENHEIT:")
+   Leia(Celsius)
+   
+   Fahrenheit <- ( (9 * Celsius + 160) / 5)
+   
+   Escreval("O VALOR EM FAHRENHEIT É: ", Fahrenheit )
+Fimalgoritmo
