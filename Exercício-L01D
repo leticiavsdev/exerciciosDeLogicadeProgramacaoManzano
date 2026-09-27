@@ -1,0 +1,30 @@
+Algoritmo "L01D"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor    : Jailson
+// Descrição    : DETERMINA A QUANTIDADES DE LITROS GASTOS NA VIAGEM
+// Autor(a)     : Leticia Vitoria
+// Data atual   : 12/09/2026
+Var
+   // Seção de Declarações das variáveis
+   distancia, tempo, velocidade, litros: real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("----------LITROS GASTOS---------")
+   Escreval("")
+   
+   Escreval("TEMPO DA VIAGEM:")
+   Leia(tempo)
+   
+   Escreval("")
+   Escreval("MÉDIA DE VELOCIDADE:")
+   Leia(velocidade)
+
+   distancia <- (tempo * velocidade)
+   litros <- (distancia / 12)
+
+   Escreval("MÉDIA DE VELOCIDADE: ", velocidade:4:2, " km/h")
+   Escreval("TEMPO DA VIAGEM: ", tempo:4:2, " horas")
+   Escreval("MÉDIA DISTANCIA PERCORRIDA: ", distancia:4:2, " km")
+   Escreval("LITROS USADOS DURANTE O PERCURSO: ", litros:4:2, " L")
+Fimalgoritmo
