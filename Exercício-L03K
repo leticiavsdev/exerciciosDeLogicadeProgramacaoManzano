@@ -1,0 +1,50 @@
+Algoritmo " L03K"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   :
+//k) Elaborar um programa que possibilite calcular a área total de uma
+//residência (sala, cozinha, banheiro, quartos, área de serviço, quintal,
+//garagem, etc.). O programa deve solicitar a entrada do nome, a largura e
+//o comprimento de um determinado cômodo. Em seguida, deve apresentar a área
+//do cômodo lido e também uma mensagem solicitando do usuário a confirmação
+//de continuar calculando novos cômodos. Caso o usuário responda “NAO”,
+//o programa deve apresentar o valor total acumulado da área residencial.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 21/09/2026
+Var
+   // Seção de Declarações das variáveis
+   nomeComodo, continuar : caractere
+   largura, comprimento, areaComodo, areaTotal : real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   areaTotal <- 0
+   continuar <- "SIM"
+
+   Enquanto continuar <> "NAO" faca
+
+      Escreval("Digite o nome do comodo:")
+      Leia(nomeComodo)
+
+      Escreval("Digite a largura do comodo:")
+      Leia(largura)
+
+      Escreval("Digite o comprimento do comodo:")
+      Leia(comprimento)
+
+      areaComodo <- largura * comprimento
+
+      Escreval("Area do comodo ", nomeComodo, ": ", areaComodo, " m2")
+
+      areaTotal <- areaTotal + areaComodo
+
+      Escreval("Deseja continuar calculando novos comodos? (SIM/NAO)")
+      Leia(continuar)
+
+   FimEnquanto
+
+   Limpatela
+
+   Escreval("Area total da residencia: ", areaTotal, " m2")
+
+Fimalgoritmo
