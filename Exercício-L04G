@@ -1,0 +1,28 @@
+Algoritmo " L04G"
+// Disciplina   : [Logica de Programação  em JavaScript]
+// Professor   : Jailson
+// Descrição   :Elaborar um programa que apresente como resultado o valor do
+//fatorial dos valores ímpares situados na faixa numérica de 1 a 10.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 23/09/2026
+Var
+   // Seção de Declarações das variáveis
+   numero, fatorial, i: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   numero <- 1
+   repita  //1-conta de 1 ate 10
+      se (numero mod 2 <> 0) então //validae SE e impar
+         fatorial <- 1
+         i <- numero
+         repita  //2- calculo do fatorial(O fatorial guarda o resultado acumulado )
+            fatorial <- fatorial * i
+            i <- i - 1
+         ate i < 1
+         Escreval("O fatorial do número ímpar ", numero, " é:", fatorial)
+      Fimse
+      numero <- numero + 1
+   ate numero > 10
+
+
+Fimalgoritmo
