@@ -1,0 +1,54 @@
+Algoritmo " L03G"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   : Efetuar a leitura de três valores (variáveis A, B e C) e
+//apresentá-los dispostos em ordem crescente.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 13/09/2026
+Var
+   // Seção de Declarações das variáveis
+   A, B, C: Inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("APRESENTAR OS NUMEROS EM ORDEM CRESCENTE")
+   Escreva("")
+
+   Escreval("ESCREVA O NUMERO 1:")
+   Escreval("")
+   Leia(A)
+
+   Escreval("ESCREVA O NUMERO 2:")
+   Escreval("")
+   Leia(B)
+
+   Escreval("ESCREVA O NUMERO 3:")
+   Escreval("")
+   Leia(C)
+
+   se (A <= B) e (B <= C) entao
+      Escreval("A ORDEM CRESCENTE É: ", A, ", ", B, ", ", C)
+   senao
+      se (A <= C) e (C <= B) entao
+         Escreval("A ORDEM CRESCENTE É: ", A, ", ", C, ", ", B)
+      senao
+         se (B <= A) e (A <= C) entao
+            Escreval("A ORDEM CRESCENTE É: ", B, ", ", A, ", ", C)
+         senao
+            se (B <= C) e (C <= A) entao
+               Escreval("A ORDEM CRESCENTE É: ", B, ", ", C, ", ", A)
+            senao
+               se (C <= A) e (A <= B) entao
+                  Escreval("A ORDEM CRESCENTE É: ", C, ", ", A, ", ", B)
+               senao
+
+                  Escreval("A ORDEM CRESCENTE É: ", C, ", ", B, ", ", A)
+               fimse
+            fimse
+         fimse
+      fimse
+   fimse
+
+
+
+Fimalgoritmo
