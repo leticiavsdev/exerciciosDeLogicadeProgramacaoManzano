@@ -1,0 +1,40 @@
+Algoritmo "L03L"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   :
+//Elaborar um programa que efetue a leitura de valores positivos inteiros
+//até que um valor negativo seja informado. Ao final devem ser apresentados
+//o maior e o menor valores informados pelo usuário.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 21/09/2026
+Var
+   // Seção de Declarações das variáveis
+   valor, maior, menor: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite um valor positivo: ")
+   leia(valor)
+
+   maior <- valor
+   menor <- valor
+
+   enquanto valor >= 0 faca
+
+      se valor > maior entao
+         maior <- valor
+      fimse
+
+      se valor < menor entao
+         menor <- valor
+      fimse
+
+      escreva("Digite outro valor positivo ou um negativo para parar: ")
+      leia(valor)
+
+   fimenquanto
+
+   escreval("Maior valor informado: ", maior)
+   escreval("Menor valor informado: ", menor)
+
+Fimalgoritmo
