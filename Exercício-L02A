@@ -1,0 +1,31 @@
+Algoritmo "L02A"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   : Ler dois valores numéricos inteiros e apresentar o resultado
+//da diferença do maior pelo menor valor.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 13/09/2026
+Var
+   // Seção de Declarações das variáveis
+   numero1, numero2: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("----QUAL NUMERO É MAIOR----")
+   Escreval("")
+
+   Escreval("ESCOLHA O NÚMERO 1:")
+   Escreval("")
+   Leia(numero1)
+
+   Escreval("ESCOLHA O NÚMERO 2:")
+   Escreval("")
+   Leia(numero2)
+
+   se (numero1 > numero2) entao
+      Escreval("A DIFERENÇA É: ", numero1 - numero2)
+   senao
+      Escreval("A DIFERENÇA É: ", numero2 - numero1)
+   fimse
+
+Fimalgoritmo
