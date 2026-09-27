@@ -1,0 +1,26 @@
+Algoritmo "L01C"
+// Disciplina   : [Lógica de Programação em JavaScript]
+// Professor   : Jailson
+// Descrição   : CALCULA O VOLUME DE UMA LATA
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 12/09/2026
+Var
+   // Seção de Declarações das variáveis
+   raio, altura, volume: real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("----------CALCULO VOLUME LATA---------")
+   Escreval("")
+   
+   Escreval("QUAL É A ALTURA DA LATA:")
+   Leia(altura)
+   
+   Escreval("")
+   Escreval("QUAL É O RAIO DA LATA:")
+   Leia(raio)
+   
+   volume <- ((3.14159*(raio ^ 2)) * altura)
+   
+   Escreval("O VOLUME DA LATA É: ", volume )
+Fimalgoritmo
